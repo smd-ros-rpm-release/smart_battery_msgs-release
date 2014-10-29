@@ -1,0 +1,12 @@
+Source: ros-hydro-smart-battery-msgs
+Section: misc
+Priority: extra
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-std-msgs
+Homepage: http://wiki.ros.org/smart_battery_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-smart-battery-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-std-msgs
+Description: Smart Battery Messages
